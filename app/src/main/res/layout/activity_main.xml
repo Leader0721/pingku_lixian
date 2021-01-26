@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/ce2e2e2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/c1c94a3"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="仓库主页"
+            android:textColor="@color/white"
+            android:textSize="@dimen/t20"/>
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/sc_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/v10"
+                android:layout_marginTop="@dimen/v10"
+                android:layout_marginRight="@dimen/v10"
+                android:background="@drawable/btn_white"
+                android:orientation="vertical"
+                android:padding="@dimen/v10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="入库"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/t20"/>
+
+                <com.example.ckxt_yezhan.view.XGridView
+                    android:id="@+id/gv_ruku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:numColumns="4"
+                    android:scrollbars="none"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/v10"
+                android:layout_marginTop="@dimen/v10"
+                android:layout_marginRight="@dimen/v10"
+                android:background="@drawable/btn_white"
+                android:orientation="vertical"
+                android:padding="@dimen/v10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出库"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/t20"/>
+
+                <com.example.ckxt_yezhan.view.XGridView
+                    android:id="@+id/gv_chuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:numColumns="4"
+                    android:scrollbars="none"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/v10"
+                android:layout_marginTop="@dimen/v10"
+                android:layout_marginRight="@dimen/v10"
+                android:background="@drawable/btn_white"
+                android:orientation="vertical"
+                android:padding="@dimen/v10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="库内"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/t20"/>
+
+                <com.example.ckxt_yezhan.view.XGridView
+                    android:id="@+id/gv_kunei"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:numColumns="4"
+                    android:scrollbars="none"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/v10"
+                android:layout_marginTop="@dimen/v10"
+                android:layout_marginRight="@dimen/v10"
+                android:background="@drawable/btn_white"
+                android:orientation="vertical"
+                android:padding="@dimen/v10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="系统设置"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/t20"/>
+
+                <com.example.ckxt_yezhan.view.XGridView
+                    android:id="@+id/gv_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:numColumns="4"
+                    android:scrollbars="none"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

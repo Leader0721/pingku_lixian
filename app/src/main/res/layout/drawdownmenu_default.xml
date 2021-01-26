@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_content"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/c1c94a3"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@mipmap/arrow_back"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/t20"/>
+    </RelativeLayout>
+
+    <com.example.ckxt_yezhan.view.drowdownmenu.DropDownMenu xmlns:android="http://schemas.android.com/apk/res/android"
+                                                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                            android:id="@+id/dropDownMenu"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:background="@color/c00000000"
+                                                            app:ddmaskColor="@color/c80000000"
+                                                            app:ddmenuBackgroundColor="@color/white"
+                                                            app:ddmenuMaxHeight="200dp"
+                                                            app:ddmenuSelectedIcon="@mipmap/triangle_orange_up"
+                                                            app:ddmenuTextSize="@dimen/t16"
+                                                            app:ddmenuUnselectedIcon="@mipmap/triangle_orange_down"
+                                                            app:ddneedSetSlectedColor="false"
+                                                            app:ddtextSelectedColor="@color/c1c94a3"
+                                                            app:ddtextUnselectedColor="@color/c666666"/>
+
+
+</LinearLayout>

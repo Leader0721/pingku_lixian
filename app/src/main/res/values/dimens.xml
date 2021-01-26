@@ -1,0 +1,71 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+    <!-- 如果是字体的大小，加前缀t,单位sp。name为具体值 -->
+    <dimen name="t28">28sp</dimen>
+    <dimen name="t26">26sp</dimen>
+    <dimen name="t24">24sp</dimen>
+    <dimen name="t22">22sp</dimen>
+    <dimen name="t20">20sp</dimen>
+    <dimen name="t18">18sp</dimen>
+    <dimen name="t16">16sp</dimen>
+    <dimen name="t14">14sp</dimen>
+    <dimen name="t12">12sp</dimen>
+    <dimen name="t10">10sp</dimen>
+
+    <!--一些常用的尺寸-->
+    <dimen name="v0">0dp</dimen>
+    <dimen name="v1">1dp</dimen>
+    <dimen name="v2">2dp</dimen>
+    <dimen name="v3">3dp</dimen>
+    <dimen name="v5">5dp</dimen>
+    <dimen name="v8">8dp</dimen>
+    <dimen name="v10">10dp</dimen>
+    <dimen name="v12">12dp</dimen>
+    <dimen name="v15">15dp</dimen>
+    <dimen name="v20">20dp</dimen>
+    <dimen name="v22">22dp</dimen>
+    <dimen name="v24">24dp</dimen>
+    <dimen name="v25">25dp</dimen>
+    <dimen name="v28">28dp</dimen>
+    <dimen name="v30">30dp</dimen>
+    <dimen name="v35">35dp</dimen>
+    <dimen name="v40">40dp</dimen>
+    <dimen name="v44">44dp</dimen>
+    <dimen name="v45">45dp</dimen>
+    <dimen name="v50">50dp</dimen>
+    <dimen name="v60">60dp</dimen>
+    <dimen name="v68">68dp</dimen>
+    <dimen name="v70">70dp</dimen>
+    <dimen name="v73">73dp</dimen>
+    <dimen name="v80">80dp</dimen>
+    <dimen name="v84">84dp</dimen>
+    <dimen name="v90">90dp</dimen>
+    <dimen name="v100">100dp</dimen>
+    <dimen name="v110">110dp</dimen>
+    <dimen name="v120">120dp</dimen>
+    <dimen name="v130">130dp</dimen>
+    <dimen name="v140">140dp</dimen>
+    <dimen name="v160">160dp</dimen>
+    <dimen name="v180">180dp</dimen>
+    <dimen name="v190">190dp</dimen>
+    <dimen name="v195">195dp</dimen>
+    <dimen name="v200">200dp</dimen>
+    <dimen name="v205">205dp</dimen>
+    <dimen name="v220">220dp</dimen>
+    <dimen name="v240">240dp</dimen>
+    <dimen name="v270">270dp</dimen>
+    <dimen name="v280">280dp</dimen>
+    <dimen name="v300">300dp</dimen>
+    <dimen name="v350">350dp</dimen>
+    <dimen name="v400">400dp</dimen>
+    <dimen name="v500">500dp</dimen>
+    <dimen name="v600">600dp</dimen>
+
+
+</resources>

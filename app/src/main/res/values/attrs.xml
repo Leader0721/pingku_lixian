@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 横向ListView HorizontalListView -->
+    <declare-styleable name="BaseHorizontalListView">
+        <attr name="dividerWidth" format="dimension"/>
+        <attr name="android:divider"/>
+        <attr name="android:requiresFadingEdge"/>
+        <attr name="android:fadingEdgeLength"/>
+    </declare-styleable>
+
+    <!-- DropDownMenu start -->
+    <declare-styleable name="DropDownMenu">
+        <!--tab选中颜色-->
+        <attr name="ddtextSelectedColor" format="color"/>
+        <!--tab未选中颜色-->
+        <attr name="ddtextUnselectedColor" format="color"/>
+        <!--tab 背景颜色-->
+        <attr name="ddmenuBackgroundColor" format="color"/>
+        <!--遮罩颜色，一般是半透明-->
+        <attr name="ddmaskColor" format="color"/>
+        <attr name="ddneedSetSlectedColor" format="boolean"/>
+        <!--tab字体大小-->
+        <attr name="ddmenuTextSize" format="dimension"/>
+        <!--筛选菜单最大高度，默认为wrap-->
+        <attr name="ddmenuMaxHeight" format="dimension"/>
+        <!--tab选中状态图标-->
+        <attr name="ddmenuSelectedIcon" format="reference"/>
+        <!--tab未选中状态图标-->
+        <attr name="ddmenuUnselectedIcon" format="reference"/>
+    </declare-styleable>
+    <!-- DropDownMenu end -->
+
+
+    <declare-styleable name="WheelView">
+        <!-- 中间分割线外的item数量,整个滑动数量就为 wheelItemCount * 2 + 1  -->
+        <attr name="wheelItemCount" format="integer"/>
+        <!-- 滑轮item高度 -->
+        <attr name="wheelItemSize" format="dimension"/>
+        <!-- 滑轮字体大小 -->
+        <attr name="wheelTextSize" format="dimension"/>
+        <!-- 滑轮字体颜色 -->
+        <attr name="wheelTextColor" format="color"/>
+        <!-- 滑轮中心字体颜色 -->
+        <attr name="wheelTextColorCenter" format="color"/>
+        <!-- 分割线颜色 -->
+        <attr name="wheelDividerColor" format="color"/>
+        <!-- 布局方向 -->
+        <attr name="wheelOrientation">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="2"/>
+        </attr>
+        <!-- 水平布局时不考虑只参数,  当垂直布局时的左右靠齐立体效果 -->
+        <attr name="wheelGravity">
+            <enum name="left" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+
+        <!-- 两根分割线的距离 -->
+        <attr name="wheelDividerSize" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="SlideListView">
+        <attr name="slideAnimationTime" format="integer" />
+        <attr name="slideMode" format="enum">
+            <enum name="none" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="both" value="3" />
+        </attr>
+        <attr name="slideLeftAction" format="enum">
+            <enum name="scroll" value="0" />
+            <enum name="reveal" value="1" />
+        </attr>
+        <attr name="slideRightAction" format="enum">
+            <enum name="scroll" value="0" />
+            <enum name="reveal" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <item name="slide_id_front_view" type="id"/>
+    <item name="slide_id_left_back_view" type="id"/>
+    <item name="slide_id_right_back_view" type="id"/>
+</resources>

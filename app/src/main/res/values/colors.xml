@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#999999</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#cccccc</color>
+    <color name="red">#ff0000</color>
+    <color name="c00000000">#00000000</color>
+    <color name="c50000000">#50000000</color>
+    <color name="cB3000000">#B3000000</color>//黑色70%透明度
+    <color name="c80000000">#80000000</color>//黑色半透明
+    <color name="cFF000000">#FF000000</color>//黑色不透明透明
+    <color name="c656565">#656565</color>
+    <color name="ce2e2e2">#e2e2e2</color>
+    <color name="cf8b551">#f8b551</color>
+    <color name="c2ec197">#2ec197</color>
+    <color name="c1c94a3">#1c94a3</color>
+    <color name="cf57f17">#f57f17</color>
+    <color name="ce5eae8">#e5eae8</color>
+    <color name="c27c297">#27c297</color>
+    <color name="cdbe0dd">#dbe0dd</color>
+    <color name="cF71707">#F71707</color>
+    <color name="cffe9e9e9">#ffe9e9e9</color>
+    <color name="c727272">#727272</color>
+
+
+    <color name="c333333">#333333</color>
+    <color name="c353535">#353535</color>
+    <color name="c666666">#666666</color>
+    <color name="c888888">#888888</color>
+    <color name="c999999">#999999</color>
+    <color name="ce8e8e8">#e8e8e8</color>
+</resources>

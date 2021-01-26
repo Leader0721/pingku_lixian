@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_danpinys"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v60"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="验收"
+            android:textColor="@color/c666666"
+            android:textSize="@dimen/t20"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v1"
+        android:background="@color/ce8e8e8"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v1"
+        android:background="@color/ce8e8e8"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v10"
+        android:background="@color/ce8e8e8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v60"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/c666666"
+            android:textSize="@dimen/t20"/>
+
+    </LinearLayout>
+
+</LinearLayout>

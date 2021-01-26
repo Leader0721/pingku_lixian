@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自定义对话框的布局 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:clickable="true"
+             android:padding="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_dialog"
+        android:clickable="true"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="40.0dp"
+            android:layout_gravity="top"
+            android:gravity="start"
+            android:text=""
+            android:textColor="#222222"
+            android:textSize="@dimen/t24"
+            android:visibility="visible"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="76dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="50.0dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text=""
+                    android:textColor="#222222"
+                    android:textSize="@dimen/t20"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/buttonLyaout"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/negativeButton"
+                style="@style/CustomDialog_Negative"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消"/>
+
+            <Button
+                android:id="@+id/positiveButton"
+                style="@style/CustomDialog_Positive"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:enabled="true"
+                android:gravity="center"
+                android:text="确定"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
