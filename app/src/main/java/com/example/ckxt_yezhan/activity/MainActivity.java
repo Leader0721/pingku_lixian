@@ -25,6 +25,7 @@ import com.raizlabs.android.dbflow.structure.database.transaction.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
+
 /*
 01\15	1	入库 1
 01\16	0.5	出库 0.5
@@ -49,7 +50,14 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
     private List<MainBean> mKuneiBeanList;
     private List<MainBean> mSettingBeanList;
     private long mExitTime = 0;
-
+//
+//
+//
+//
+//
+//
+//
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,16 +94,16 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
         Transaction transaction = database.beginTransactionAsync(new ITransaction() {
             @Override
             public void execute(DatabaseWrapper databaseWrapper) {
-                        KucunmxTable kucunmxTable=new KucunmxTable();
-        kucunmxTable.setCangkuid(1);
-        kucunmxTable.setBeizhu("dddd");
-        kucunmxTable.setWuziid(1);
-        kucunmxTable.insert();
+                KucunmxTable kucunmxTable = new KucunmxTable();
+                kucunmxTable.setCangkuid(1);
+                kucunmxTable.setBeizhu("dddd");
+                kucunmxTable.setWuziid(1);
+                kucunmxTable.insert();
 
-        WuziTable wuziTable=new WuziTable();
-        wuziTable.setId_wuzi(1);
-        wuziTable.setWuzimc("物资名称");
-        wuziTable.insert();
+                WuziTable wuziTable = new WuziTable();
+                wuziTable.setId_wuzi(1);
+                wuziTable.setWuzimc("物资名称");
+                wuziTable.insert();
             }
         }).success(new OnSuccess()).error(new OnError()).build();
         transaction.execute();
@@ -221,7 +229,6 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-
     }
 
     //按两次返回键退出
