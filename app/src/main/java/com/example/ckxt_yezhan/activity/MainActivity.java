@@ -39,25 +39,25 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
     private XGridView mGvChuku;
     private XGridView mGvKunei;
     private XGridView mGvSetting;
-
     private MainAdapter mRukuAdapter;
     private MainAdapter mChukuAdapter;
     private MainAdapter mKuneiAdapter;
     private MainAdapter mSettingAdapter;
-
     private List<MainBean> mRukuBeanList;
     private List<MainBean> mChukuBeanList;
     private List<MainBean> mKuneiBeanList;
     private List<MainBean> mSettingBeanList;
     private long mExitTime = 0;
-//
-//
-//
-//
-//
-//
-//
-//
+//22
+//22
+//22
+//22
+//22
+//22
+//222
+//222
+//222
+//22222
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
