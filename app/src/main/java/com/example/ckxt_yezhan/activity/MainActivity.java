@@ -39,6 +39,7 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
     private XGridView mGvKunei;
     private XGridView mGvSetting;
 
+
     private MainAdapter mRukuAdapter;
     private MainAdapter mChukuAdapter;
     private MainAdapter mKuneiAdapter;
