@@ -31,7 +31,7 @@ import java.util.List;
 public class RuKuDHZActivity extends BaseActivity implements View.OnClickListener, AdapterView.OnItemClickListener {
     private ImageView mIvBack;
     private ListView mLvContent;
-
+//改了。。。。。。。。。。。。。。。。。
     private RelativeLayout rl_top;
     private RuKuDHZAdapter mRuKuDHZAdapter;
     private PopupWindow mPopupBottom;
